@@ -341,6 +341,44 @@ html[data-theme="dark"] .quiz-panel{
     background-color: #1b2b24;
     color: #ffffff;
 }
+html[data-theme="dark"] .quiz-screen{
+    background-color: #101D18;
+}
+html[data-theme="dark"] .quiz-panel h1,
+html[data-theme="dark"] .quiz-panel h2,
+html[data-theme="dark"] .quiz-panel p,
+html[data-theme="dark"] .quiz-panel li,
+html[data-theme="dark"] .quiz-panel label,
+html[data-theme="dark"] .quiz-panel legend{
+    color: #ffffff;
+}
+html[data-theme="dark"] .quiz-panel input{
+    background-color: #263b31;
+    color: #ffffff;
+    border-color: #78927f;
+}
+html[data-theme="dark"] .quiz-panel fieldset{
+    border-color: #4c6a54;
+}
+html[data-theme="dark"] .choice-button:not(.is-selected){
+    background-color: #263b31;
+    color: #ffffff;
+}
+html[data-theme="dark"] .choice-button:not(.is-selected):hover{
+    background-color: #355d3b;
+}
+html[data-theme="dark"] .score-summary,
+html[data-theme="dark"] .leaderboard li{
+    background-color: #263b31;
+    color: #ffffff;
+}
+html[data-theme="dark"] .leaderboard li:first-child{
+    background-color: #1a9113;
+    color: #ffffff;
+}
+html[data-theme="dark"] .homie-message{
+    color: #69db70;
+}
 .theme-btn2{
     background-color: #064d25;
     color: #ffffff;
